@@ -8,7 +8,7 @@ import { HeroesService, Heroe } from '../../servicios/heroes.service';
 })
 export class HeroesComponent implements OnInit {
 
-  heroes: any[] = [];
+  heroes: Heroe[] = [];
 
   constructor( private _heroesService:HeroesService ) {
 
